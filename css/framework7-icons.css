@@ -654,8 +654,7 @@ code {
   background: #666;
 }
 
-.page-home,
-.page-about {
+.page-transparent {
   --f7-list-border-color: transparent;
   --f7-block-strong-border-color: transparent;
   --f7-block-font-size: 16px;
@@ -663,4 +662,10 @@ code {
 :root:not(.theme-dark) .page-home,
 :root:not(.theme-dark) .page-about {
   --f7-page-bg-color: #fff;
+}
+
+.tapHold{
+  -moz-user-select: none;
+-webkit-user-select: none;
+user-select: none;
 }
